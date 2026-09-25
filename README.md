@@ -28,4 +28,4 @@ The compact revision emphasizes decision theory, stochastic choice, and expected
 
 The result headlines use native MathML for proper subscripts, quantifiers, preference relations, and an argmax representation. Definitions and maintained domain assumptions appear in the accompanying captions and scope notes.
 
-The name appears as an 18px masthead. ADM uses the manuscript’s asset-indexed demand correspondence, suppressing fixed context with tildes. The Savage headline displays P1–P6 implying existence of a dominance violation; its scope note states the full-domain assumptions and V=L for uncountable state spaces.
+The name appears as an 18px masthead. ADM uses the manuscript’s asset-indexed demand correspondence, written Dₙ, with primes marking the improved payoff environment. The Savage headline displays P1–P6 implying existence of a dominance violation; its scope note states the full-domain assumptions and V=L for uncountable state spaces.
