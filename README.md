@@ -29,3 +29,5 @@ The compact revision emphasizes decision theory, stochastic choice, and expected
 The result headlines use native MathML for proper subscripts, quantifiers, preference relations, and an argmax representation. Definitions and maintained domain assumptions appear in the accompanying captions and scope notes.
 
 The name appears as an 18px masthead. ADM uses the manuscript’s asset-indexed demand correspondence, written Dₙ, with primes marking the improved payoff environment. The Savage headline displays P1–P6 implying existence of a dominance violation; its scope note states the full-domain assumptions and V=L for uncountable state spaces.
+
+The restrained layout uses one text font family, larger whitespace between sections, and no result or paper divider rules. Result captions, assumptions, definitions, and source links expand through Details. Paper titles, authors, and years stay visible; venue, status, links, and abstracts expand through Details. Full English axiom names wrap naturally.
