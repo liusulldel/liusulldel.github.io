@@ -52,6 +52,25 @@
     "abstract_source": "https://openreview.net/forum?id=BlHRDwcAJe"
   },
   {
+    "id": "regret-theory-clarifications",
+    "title": "Clarifications and Extensions to “Regret Theory: A New Foundation.”",
+    "authors": [
+      "Enrico Diecidue",
+      "Songyu He",
+      "Shuo Li Liu",
+      "Jeeva Somasundaram"
+    ],
+    "year": 2025,
+    "venue": "SSRN 5356990",
+    "status": "Working paper",
+    "category": "Decision theory",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5356990",
+    "pdf_url": null,
+    "abstract": "Diecidue and Somasundaram (2017) provides an axiomatic foundation for regret theory (Loomes and Sugden, 1982). This note presents counterexamples that show that their axioms are insufficient. We provide appropriate axioms that characterize regret theory. In addition, we provide axiomatic foundations for regret theory generalizations proposed by Loomes and Sugden (1987) and Bikhchandani and Segal (2011). Our axioms define and identify clear boundaries between increasingly general versions of regret theory.",
+    "abstract_kind": "Author abstract",
+    "abstract_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5356990"
+  },
+  {
     "id": "behavior-only-certification",
     "title": "Behavior-Only Deployment Certification Requires Bridge Assumptions",
     "authors": [
@@ -98,90 +117,6 @@
     "abstract": "Bayesian Truth Serum (BTS) asks each respondent for an answer and a forecast of how other respondents will answer. For strategic human respondents, the scoring rule can reward truthful reporting at equilibrium. We test whether this signal helps when the respondents are language models serving as reviewers, judges, and monitors. On 871 code and reasoning review items judged by four GPT-5-variant models, every BTS-family rule is less accurate than majority vote. The main BTS rule reaches 0.9724 accuracy versus 0.9793 for majority vote, with paired McNemar p=0.031, and other BTS/SP losses survive Benjamini-Hochberg correction. A 150-item MMLU, TruthfulQA, and ARC Challenge probe shows the same pooled ordering. Calibration moves in the opposite direction: BTS-family rules reduce binned expected calibration error by 21-32 percent, and the Surprisingly Popular rule has the lowest split-conformal coverage-error diagnostic. The result is structural. LLMs are not strategic agents, share training and post-training signals, and emit meta-predictions as prompted decoder samples rather than coherent private posteriors. BTS should therefore be treated as a calibrated routing or abstention score inside a distribution-free uncertainty layer, not as a default replacement for majority voting.",
     "abstract_kind": "Author abstract",
     "abstract_source": "https://openreview.net/forum?id=p71WQTxxKz"
-  },
-  {
-    "id": "regret-theory-clarifications",
-    "title": "Clarifications and Extensions to “Regret Theory: A New Foundation.”",
-    "authors": [
-      "Enrico Diecidue",
-      "Songyu He",
-      "Shuo Li Liu",
-      "Jeeva Somasundaram"
-    ],
-    "year": 2025,
-    "venue": "SSRN 5356990",
-    "status": "Working paper",
-    "category": "Decision theory",
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5356990",
-    "pdf_url": null,
-    "abstract": "Diecidue and Somasundaram (2017) provides an axiomatic foundation for regret theory (Loomes and Sugden, 1982). This note presents counterexamples that show that their axioms are insufficient. We provide appropriate axioms that characterize regret theory. In addition, we provide axiomatic foundations for regret theory generalizations proposed by Loomes and Sugden (1987) and Bikhchandani and Segal (2011). Our axioms define and identify clear boundaries between increasingly general versions of regret theory.",
-    "abstract_kind": "Author abstract",
-    "abstract_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5356990",
-    "extra_links": [
-      {
-        "label": "Earlier note (2024)",
-        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4437546"
-      },
-      {
-        "label": "Earlier note (2023)",
-        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4536728"
-      }
-    ]
-  },
-  {
-    "id": "counterexamples-transitive-regret",
-    "title": "Counterexamples to “Transitive Regret”",
-    "authors": [
-      "Yuan Chang",
-      "Shuo Li Liu"
-    ],
-    "year": 2024,
-    "venue": "arXiv:2407.00055",
-    "status": "Working paper",
-    "category": "Decision theory",
-    "url": "https://arxiv.org/abs/2407.00055",
-    "pdf_url": "https://arxiv.org/pdf/2407.00055",
-    "abstract": "Theorem 1 in Bikhchandani & Segal (2011; Theoretical Economics) suggests that a complete, transitive, monotonic, and continuous preference is regret based if and only if it is expected utility. Their Proposition 1 suggests that transitivity and continuity of a regret-based preference implies an equivalence condition: if random variables X and Y have the same distribution, then X ∼ Y. We give counterexamples to Proposition 1.",
-    "abstract_kind": "Author abstract",
-    "abstract_source": "https://arxiv.org/abs/2407.00055"
-  },
-  {
-    "id": "can-regret-be-rational",
-    "title": "Can Regret be Rational?",
-    "authors": [
-      "Shuo Li Liu"
-    ],
-    "year": 2023,
-    "venue": "SSRN 4437540",
-    "status": "Working paper",
-    "category": "Decision theory",
-    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4437540",
-    "pdf_url": null,
-    "abstract": "Under uncertainty, regret is a function depending on both the realized outcome and forgone outcome on a state. This paper studies a general and simple model that only regret-based decisions are assumed without other restrictions such as additive separability, the existence of objective probability, monotonicity, weak comparative probability, and the existence of infinitely divisible non-atomic events (Bell 1982; Loomes and Sugden 1982; Fishburn 1987; Sugden 1993). Counter-intuitively, Savage's P2 is the behavioral axiom equivalent to the existence of a regret function. Without additional assumptions, regret-based behavior is compatible with rationality. The compatibility between regret and rationality is further examined under regularity conditions such as continuity and monotonicity.",
-    "abstract_kind": "Author abstract",
-    "abstract_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4437540",
-    "extra_links": [
-      {
-        "label": "Related earlier paper (2022)",
-        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4148486"
-      }
-    ]
-  },
-  {
-    "id": "ai-labor-rubric",
-    "title": "AI Labor Rubric: A Claim Ledger for AI Research Labor",
-    "authors": [
-      "Shuo Li Liu"
-    ],
-    "year": 2026,
-    "venue": "Working paper",
-    "status": "Working paper",
-    "category": "AI & agentic risk",
-    "url": "https://openreview.net/forum?id=vVIuyNeWXk",
-    "pdf_url": "https://openreview.net/pdf?id=vVIuyNeWXk",
-    "abstract": "Multi-agent research systems are often evaluated by visible activity: agent count, generated files, debate rounds, consensus, or apparent task completion. These signals can overstate useful AI labor when they hide duplication, verification cost, weak evidence, or unused artifacts. We introduce the AI Labor Rubric (ALR), a preregistration-ready evaluation ledger for measuring whether agentic work creates verifier-adjudicated marginal value under explicit budget, role, and evidence constraints. ALR records base audit rows for accepted, rejected, unresolved, and cost-only work, plus optional contribution-estimate fields when a leave-one-out, replacement, or Shapley-style intervention is actually run. We instantiate ALR on anonymized case-study telemetry: a 650-row labor panel spanning 13 anonymized workflow instances and 50 timestamps, a focal organizational trace with 1,158 recorded calls, and a small controlled agent-pipeline pilot on a hard MMLU-Pro slice. The telemetry motivates the need for the ledger: high output volume and spend do not imply verified progress. The pilot is correspondingly modest: a verifier-gated hierarchy arm reaches 8/12, while two matched-call baselines reach 5/12 and 4/12, with exact sign-test $p=0.25$. The contribution is an evaluation methodology and artifact schema for auditing AI research labor by verifier-adjudicated value rather than visible activity metrics, with workflow choice cast as a matched-budget protocol-selection problem rather than a claim about scale.",
-    "abstract_kind": "Author abstract",
-    "abstract_source": "https://openreview.net/forum?id=vVIuyNeWXk"
   },
   {
     "id": "coverage-profiling",
